@@ -1,0 +1,23 @@
+.center-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.center-form-Form{
+    max-width: 300px;
+    width: 50%;
+    padding: 40px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center ;
+}
+
+.center-form-Form .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+}
